@@ -1,0 +1,46 @@
+# Name : Mark Castillo
+# Date : 1/21/2022
+# Title: Lab 2 Observation + Questions
+# Description : 
+
+Step 1:
+	a. netstat : Returns all the active internet connections and listening ports
+	b. ifconfig : displays all the active interfaces
+	c. hostname : returns the host name of computer
+	d. ping : measures the time needed to send/recieve messages
+	e. tracerout : measures the path taken to send info to a destination
+	f. telnet : allows us to see if an port is open or not
+	g. host/dig : gives us the DNS records
+	h. route : displays route table
+	i. arp : manipulates kernel's IPv4 network neighbor cache
+
+Step 2:
+
+	North America -> San Fransisco IP = 65.49.22.66
+	Europe -> London IP = 5.152.197.179
+	Asia -> Tokyo IP = 110.50.243.6
+
+	32-byte packet size: 	
+				Host:		Packet Loss:		RTT min/avg/mac/mdev
+	
+				San Fransisco	 	0%		4.138/4.979/12.252/1.752 ms
+				London			0%		138.131/138.233/138.398/0.401 ms
+				Tokyo			0%		103.309/103.506/104.204/0.201 ms
+	1048-byte:
+				San Fransisco		0%		4.421/4.586/4.994/0.187 ms
+				London			0%		138.223/138.371/138.764/0.342 ms
+				Tokyo			0%		103.564/103.932/107.473/0.943 ms
+
+	c. The farther you go geographically, the longer the RTT.
+
+Step 3 : *in file p.c*
+
+Step 4:
+	b. we get an index page
+	c. 
+		- we are getting /kurose_ross/interactive/index.php
+		- version 1.1
+		- they are sending in <p>
+
+Step 5:
+	When using the anything other than port 80, the system wouldn't get a response.
