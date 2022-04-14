@@ -1,0 +1,96 @@
+gcc -o LRU LRU.c
+gcc -o FIFO FIFO.c
+gcc -o 2_chance 2_chance.c
+
+----------FIFO----------
+numMiss: 6
+numRequest: 9
+hit rate is: 0.333333
+
+
+----------End FIFO----------
+
+----------LRU----------
+numMiss: 6
+numRequest: 9
+hit rate is: 0.333333
+
+
+----------End LRU----------
+
+----------Second Chance----------
+numMisses: 6
+numRequests: 9
+Hit Rate = 0.333333
+
+
+----------End Second Chance----------
+
+FIFO 10K Test with cache size = 10, 50, 100, 250, 500
+numMiss: 9916
+numRequest: 10000
+hit rate is: 0.008400
+
+numMiss: 9515
+numRequest: 10000
+hit rate is: 0.048500
+
+numMiss: 9018
+numRequest: 10000
+hit rate is: 0.098200
+
+numMiss: 7534
+numRequest: 10000
+hit rate is: 0.246600
+
+numMiss: 5130
+numRequest: 10000
+hit rate is: 0.487000
+
+
+LRU 10K Test with cache size = 10, 50, 100, 250, 500
+numMiss: 9915
+numRequest: 10000
+hit rate is: 0.008500
+
+numMiss: 9510
+numRequest: 10000
+hit rate is: 0.049000
+
+numMiss: 9029
+numRequest: 10000
+hit rate is: 0.097100
+
+numMiss: 7532
+numRequest: 10000
+hit rate is: 0.246800
+
+numMiss: 5206
+numRequest: 10000
+hit rate is: 0.479400
+
+
+Second Chance 10K Test with cache size = 10, 50, 100, 250, 500
+numMisses: 9915
+numRequests: 10000
+Hit Rate = 0.008500
+
+numMisses: 9510
+numRequests: 10000
+Hit Rate = 0.049000
+
+numMisses: 9020
+numRequests: 10000
+Hit Rate = 0.098000
+
+numMisses: 7524
+numRequests: 10000
+Hit Rate = 0.247600
+
+numMisses: 5201
+numRequests: 10000
+Hit Rate = 0.479900
+
+
+rm -f *.out LRU FIFO 2_chance
+
