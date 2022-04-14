@@ -1,0 +1,16 @@
+Step 1:
+	Sol1:
+		Thread B didnt buy any milk
+		Thread A bought milk
+
+	sol2:
+		No one bought milk
+	
+	sol3:
+		niether bought milk but it was recieved as if it did
+	
+	sol4:
+		thread A bought the milk
+
+
+	
