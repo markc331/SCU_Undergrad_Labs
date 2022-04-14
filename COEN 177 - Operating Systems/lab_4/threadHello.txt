@@ -1,0 +1,9 @@
+When we run the threadHello file, we get produced a different thread ID for each of the threads. 
+
+If you run more demanding programs, you would have even more spaced out IDs 
+
+the arg passed as a local variable is per-thread since it is being passed through the pthread_create function
+
+The local variable in main() is shared state
+
+It ould just output the thread ID for the last thread
