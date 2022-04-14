@@ -1,0 +1,26 @@
+Prep to run VMware
+	>$ setup vmware
+	>$minix-get-image
+
+Running
+	>$ vmware &
+	click minix3 subfolder to run
+	use username 'root'
+	
+In VM
+	#passwd // allows us to set new password to access files
+	# tcpd ftp /usr/bin/in.ftpd &
+	#ifconfig // gives us the ip address of virtual machine
+In HOST
+	ftp <ip address> // access to the virtual machine to transfer files
+	cd /usr/src/kernel //gain access to kernel
+
+	use get <file> to transfer file to host machine
+	modify to make text appear
+	use put <file> to transfer file to virtual
+	
+IN VM
+	#cd /usr/src
+	use #make world to recompile minix
+	use #reboot to restart the machine and hopefully the text appears if modified correctly
+	

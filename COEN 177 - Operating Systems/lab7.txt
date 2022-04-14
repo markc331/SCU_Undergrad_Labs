@@ -1,0 +1,27 @@
+Steps:
+
+use '$ setup vmware' in order to prepare the vmware to run
+	depending on image, may need to use '$ minix-get-image'
+
+run using '$ vmware &'
+
+in VMware:
+	use '#tcpd ftp /usr/bin/in.ftpd &'
+	use '# ifconfig' to get IP address
+
+in Host:
+	use '$ ftp <IP Address>'
+		ex: mine is '$ ftp 172.16.127.138'
+	go to the kernel using 'ftp> cd /usr/src/kernel'
+	grab the proc.c file using 'ftp> get proc.c
+	edit within seperate terminal using vi
+	within the for loop of 'pick proc' function, place an if to see if q has gone past the first 3 process, as well as rand() % 10 > 6 to ensure this happens 30% of the time. During these times, we skip the process with q++
+	use 'ftp> put proc.c' to place back on vmware
+
+in VMware:
+	use 'cd /usr/src'
+	use '# make world '
+	after this is done, reboot
+
+Observations:
+	when the modificatin was done to the system, the booting time of the system was slowed down, as before we had modified it, the time it took from when the reboot function was entered to the login asks was about 1 minute and 20 seconds. After modification, it took almost 3 and a half minutes.
