@@ -1,0 +1,4 @@
+For step 1, we see that it generally takes turn with the output of the threads
+
+In the process for delays of 500, we saw the parent process being output first
+in the delay of 5000 we saw that the parent process completed first
