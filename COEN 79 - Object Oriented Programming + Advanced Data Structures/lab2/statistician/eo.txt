@@ -1,0 +1,129 @@
+--- s1 prints --- | 0, -1, 1
+Sum: 0
+Mean: 0
+Smallest: 0
+Largest: 0
+
+Sum: -1
+Mean: -0.5
+Smallest: -1
+Largest: 0
+
+Sum: 0
+Mean: 0
+Smallest: -1
+Largest: 1
+
+--- s2 prints --- | Large doubles
+Sum: 1000.12
+Mean: 1000.12
+Smallest: 1000.12
+Largest: 1000.12
+
+Sum: 3000.69
+Mean: 1500.35
+Smallest: 1000.12
+Largest: 2000.57
+
+Sum: 6001.04
+Mean: 2000.35
+Smallest: 1000.12
+Largest: 3000.35
+
+--- s3 print --- | test + operator
+Sum: 6001.04
+Mean: 0
+Smallest: -1
+Largest: 3000.35
+
+Sum: 5
+Mean: 5
+Smallest: 5
+Largest: 5
+
+--- assignment prints --- | test assignment operator
+Sum: 5
+Mean: 5
+Smallest: 5
+Largest: 5
+
+--- erase prints --- | test erase
+--- equals prints --- | test compareTo operator
+s1 is equal to s2
+
+--- scaling test --- | test multiply operator
+Sum: 2
+Mean: 1
+Smallest: -3
+Largest: 5
+
+Sum: -2
+Mean: -1
+Smallest: -5
+Largest: 3
+
+--- s1 prints --- | 0, -1, 1
+Sum: 0
+Mean: 0
+Smallest: 0
+Largest: 0
+
+Sum: -1
+Mean: -0.5
+Smallest: -1
+Largest: 0
+
+Sum: 0
+Mean: 0
+Smallest: -1
+Largest: 1
+
+--- s2 prints --- | Large doubles
+Sum: 1000.12
+Mean: 1000.12
+Smallest: 1000.12
+Largest: 1000.12
+
+Sum: 3000.69
+Mean: 1500.35
+Smallest: 1000.12
+Largest: 2000.57
+
+Sum: 6001.04
+Mean: 2000.35
+Smallest: 1000.12
+Largest: 3000.35
+
+--- s3 print --- | test + operator
+Sum: 6001.04
+Mean: 0
+Smallest: -1
+Largest: 3000.35
+
+Sum: 5
+Mean: 5
+Smallest: 5
+Largest: 5
+
+--- assignment prints --- | test assignment operator
+Sum: 5
+Mean: 5
+Smallest: 5
+Largest: 5
+
+--- erase prints --- | ...erased sucessfully
+
+--- equals prints --- | test compareTo operator
+s1 is equal to s2
+
+--- scaling test --- | test multiply operator
+Sum: 2
+Mean: 1
+Smallest: -3
+Largest: 5
+
+Sum: -2
+Mean: -1
+Smallest: -5
+Largest: 3
+
